@@ -1,6 +1,6 @@
 FROM python:3.6.4
-RUN pip install pytorch==1.6.0
-RUN pip install torchvision==0.7.0
+RUN pip install --upgrade pip
+RUN pip install pytorch==1.6.0 & torchvision==0.7.0
 RUN pip install timm
 RUN pip install cuda
 RUN pip install dataclasses
