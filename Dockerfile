@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM pytorch/pytorch:1.13.0-cuda11.6-cudnn8-runtime
 RUN pip install --upgrade pip
 RUN pip install yacs
 RUN pip install ignite==0.1.2
